@@ -1,0 +1,82 @@
+Style/AlignParameters:
+  EnforcedStyle: with_fixed_indentation
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+# Multi-line method chaining should be done with leading dots.
+Style/DotPosition:
+  EnforcedStyle: trailing
+
+# Use empty lines between defs.
+Style/EmptyLineBetweenDefs:
+  # If true, this parameter means that single line method definitions don't
+  # need an empty line between them.
+  AllowAdjacentOneLineDefs: true
+
+Style/EmptyLines:
+  Exclude:
+    - Gemfile
+
+# Checks whether the source file has a utf-8 encoding comment or not
+Style/Encoding:
+  Enabled: false
+
+Style/InlineComment:
+  Enabled: false
+
+Style/MultilineOperationIndentation:
+  EnforcedStyle: indented
+
+# Enforce the method used for string formatting.
+Style/FormatString:
+  Enabled: false
+
+Style/IfUnlessModifier:
+  MaxLineLength: 120
+
+Style/Semicolon:
+  # Allow ; to separate several expressions on the same line.
+  AllowAsExpressionSeparator: true
+
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+  Exclude:
+    - Gemfile
+    - Rakefile
+
+Style/StringLiteralsInInterpolation:
+  EnforcedStyle: double_quotes
+
+Style/TrailingComma:
+  # If EnforcedStyleForMultiline is comma, the cop allows a comma after the
+  # last item of a list, but only for lists where each item is on its own line.
+  EnforcedStyleForMultiline: no_comma
+
+Style/RaiseArgs:
+  Enabled: false
+
+# Allow logical `or`/`and` in conditionals
+Style/AndOr:
+  EnforcedStyle: conditionals
+
+##################### Metrics ##################################
+
+Metrics/AbcSize:
+  Severity: warning
+  Max: 25
+
+Metrics/LineLength:
+  Max: 120
+  # To make it possible to copy or click on URIs in the code, we allow lines
+  # contaning a URI to be longer than Max.
+  AllowURI: true
+  URISchemes:
+    - http
+    - https
+
+##################### Rails ##################################
