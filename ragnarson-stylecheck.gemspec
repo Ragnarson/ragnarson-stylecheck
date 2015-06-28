@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.authors       = ['Piotr Marciniak', 'Grzesiek Kołodziejczyk', 'Oskar Szrajer']
   s.email         = 'oskarszrajer@gmail.com'
   s.files         = Dir['{config,lib}/**/*', 'MIT-LICENSE', 'README.md', './']
-  s.homepage      = 'http://gihub.com/ragnarson/ragnarson-stylecheck'
+  s.homepage      = 'https://github.com/ragnarson/ragnarson-stylecheck'
   s.license       = 'MIT'
 
   s.add_dependency 'rubocop', '~> 0.29.1'
