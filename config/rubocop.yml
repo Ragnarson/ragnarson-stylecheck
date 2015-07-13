@@ -80,3 +80,7 @@ Metrics/LineLength:
     - https
 
 ##################### Rails ##################################
+
+AllCops:
+  Exclude:
+    - db/schema.rb
