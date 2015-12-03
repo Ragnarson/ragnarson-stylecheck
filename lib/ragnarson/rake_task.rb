@@ -1,2 +1,2 @@
-require 'rake'
-load 'ragnarson/tasks/rubocop.rake'
+require "rake"
+load "ragnarson/tasks/rubocop.rake"

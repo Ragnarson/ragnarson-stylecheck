@@ -1,4 +1,4 @@
-require 'fileutils'
+require "fileutils"
 
 module Ragnarson
   module Stylecheck
@@ -6,7 +6,7 @@ module Ragnarson
     module RubocopHelpers
       class << self
         def config
-          File.join(Ragnarson::Stylecheck.root, 'config', 'rubocop.yml')
+          File.join(Ragnarson::Stylecheck.root, "config", "rubocop.yml")
         end
       end
     end
