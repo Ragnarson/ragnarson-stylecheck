@@ -66,6 +66,9 @@ Style/AndOr:
 Style/EachWithObject:
   Enabled: false
 
+Lint/AssignmentInCondition:
+  Enabled: false
+
 ##################### Metrics ##################################
 
 Metrics/AbcSize:
