@@ -42,7 +42,6 @@ Style/Semicolon:
   # Allow ; to separate several expressions on the same line.
   AllowAsExpressionSeparator: true
 
-
 Style/StringLiterals:
   EnforcedStyle: double_quotes
   Exclude:
@@ -63,6 +62,9 @@ Style/RaiseArgs:
 # Allow logical `or`/`and` in conditionals
 Style/AndOr:
   EnforcedStyle: conditionals
+
+Style/EachWithObject:
+  Enabled: false
 
 ##################### Metrics ##################################
 
