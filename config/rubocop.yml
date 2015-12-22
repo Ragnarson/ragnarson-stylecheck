@@ -92,4 +92,4 @@ Metrics/LineLength:
 AllCops:
   Exclude:
     - db/schema.rb
-    - bin/*
+    - bin/**
