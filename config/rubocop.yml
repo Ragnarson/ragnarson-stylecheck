@@ -28,6 +28,9 @@ Style/Encoding:
 Style/InlineComment:
   Enabled: false
 
+Style/MultilineBlockChain:
+  Enabled: false
+
 Style/MultilineOperationIndentation:
   EnforcedStyle: indented
 
