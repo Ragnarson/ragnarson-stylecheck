@@ -93,3 +93,7 @@ AllCops:
   Exclude:
     - db/schema.rb
     - bin/**
+
+Style/Blocks:
+  Exclude:
+    - "spec/**/*"
