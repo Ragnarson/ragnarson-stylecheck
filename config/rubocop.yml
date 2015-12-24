@@ -4,9 +4,6 @@ Style/AlignParameters:
 Style/ClassAndModuleChildren:
   Enabled: false
 
-Style/Documentation:
-  Enabled: false
-
 # Multi-line method chaining should be done with leading dots.
 Style/DotPosition:
   EnforcedStyle: trailing
@@ -94,6 +91,6 @@ AllCops:
     - db/schema.rb
     - bin/**
 
-Style/Blocks:
+Style/BlockDelimiters:
   Exclude:
     - "spec/**/*"
