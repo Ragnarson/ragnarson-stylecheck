@@ -10,5 +10,7 @@ Gem::Specification.new do |s|
   s.homepage      = "https://github.com/ragnarson/ragnarson-stylecheck"
   s.license       = "MIT"
 
-  s.add_dependency "rubocop", "~> 0.35.0"
+  s.add_development_dependency "bundler", "~> 1.10"
+  s.add_development_dependency "rake", "~> 10.0"
+  s.add_dependency "rubocop", "~> 0.36.0"
 end
