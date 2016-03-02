@@ -22,6 +22,9 @@ Style/EmptyLines:
 Style/Encoding:
   Enabled: false
 
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
 Style/InlineComment:
   Enabled: false
 
