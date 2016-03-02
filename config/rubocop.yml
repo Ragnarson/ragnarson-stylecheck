@@ -22,11 +22,17 @@ Style/EmptyLines:
 Style/Encoding:
   Enabled: false
 
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
 Style/InlineComment:
   Enabled: false
 
 Style/MultilineBlockChain:
   Enabled: false
+
+Style/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
 
 Style/MultilineOperationIndentation:
   EnforcedStyle: indented
