@@ -73,6 +73,9 @@ Style/EachWithObject:
 Lint/AssignmentInCondition:
   Enabled: false
 
+Style/Documentation:
+  Enabled: false
+
 ##################### Metrics ##################################
 
 Metrics/AbcSize:
