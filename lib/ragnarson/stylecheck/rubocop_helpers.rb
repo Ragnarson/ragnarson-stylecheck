@@ -24,6 +24,10 @@ module Ragnarson
         def stylecheck_config_path
           File.join(Ragnarson::Stylecheck.root, "config", "rubocop.yml")
         end
+
+        def template_config_path
+          File.join(Ragnarson::Stylecheck.root, "lib", "ragnarson", "templates", "rubocop.yml")
+        end
       end
     end
   end

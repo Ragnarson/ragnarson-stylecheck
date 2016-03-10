@@ -1,0 +1,5 @@
+inherit_gem:
+  ragnarson-stylecheck: config/rubocop.yml
+
+AllCops:
+  TargetRubyVersion: 2.3
