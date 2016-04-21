@@ -23,6 +23,13 @@ namespace :style do
         abort "Fix code style errors" unless ok
       end
     end
+
+    desc "Generate local RuboCop config"
+    task :generate_local_config do
+      template_config_path = Ragnarson::Stylecheck::RubocopHelpers.template_config_path
+      project_config_path = Ragnarson::Stylecheck::RubocopHelpers.project_config_path
+      FileUtils.cp(template_config_path, project_config_path)
+    end
   end
 end
 
