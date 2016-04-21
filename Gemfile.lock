@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    ragnarson-stylecheck (0.0.7)
+    ragnarson-stylecheck (0.1.0)
       rubocop (~> 0.37.2)
 
 GEM
