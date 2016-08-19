@@ -1,3 +1,7 @@
+Style/AlignHash:
+  EnforcedHashRocketStyle: table
+  EnforcedColonStyle: table
+
 Style/ClassAndModuleChildren:
   Enabled: false
 
