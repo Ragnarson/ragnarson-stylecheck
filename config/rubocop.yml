@@ -91,6 +91,10 @@ Metrics/LineLength:
     - http
     - https
 
+Metrics/ParameterLists:
+  Max: 5
+  CountKeywordArgs: false
+
 ##################### Rails ##################################
 
 AllCops:
