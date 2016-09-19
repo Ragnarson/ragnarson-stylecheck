@@ -23,7 +23,7 @@ Style/FrozenStringLiteralComment:
   Enabled: false
 
 Style/MultilineHashBraceLayout:
-  EnforcedStyle: same_line
+  EnforcedStyle: symmetrical
 
 Style/MultilineMethodCallIndentation:
   EnforcedStyle: indented
