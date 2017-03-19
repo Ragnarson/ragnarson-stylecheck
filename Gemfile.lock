@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     ragnarson-stylecheck (0.2.2)
+      rake (~> 10.0)
       rubocop (~> 0.42.0)
 
 GEM
@@ -28,7 +29,6 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.10)
   ragnarson-stylecheck!
-  rake (~> 10.0)
 
 BUNDLED WITH
-   1.13.7
+   1.14.6
