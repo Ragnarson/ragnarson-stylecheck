@@ -91,6 +91,7 @@ AllCops:
   Exclude:
     - db/schema.rb
     - bin/**
+    - node_modules/**/*
 
 Style/BlockDelimiters:
   Exclude:
