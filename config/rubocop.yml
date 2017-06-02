@@ -1,45 +1,65 @@
 AllCops:
   TargetRubyVersion: 2.3
 
-Style/AlignHash:
+##################### Layout ##################################
+
+Layout/AlignHash:
   EnforcedHashRocketStyle: table
   EnforcedColonStyle: table
 
-Style/ClassAndModuleChildren:
-  Enabled: false
-
 # Multi-line method chaining should be done with leading dots.
-Style/DotPosition:
+Layout/DotPosition:
   EnforcedStyle: trailing
 
 # Use empty lines between defs.
-Style/EmptyLineBetweenDefs:
+Layout/EmptyLineBetweenDefs:
   # If true, this parameter means that single line method definitions don't
   # need an empty line between them.
   AllowAdjacentOneLineDefs: true
 
-Style/EmptyLines:
+Layout/EmptyLines:
   Exclude:
     - Gemfile
 
-Style/FrozenStringLiteralComment:
-  Enabled: false
-
-Style/MultilineHashBraceLayout:
+Layout/MultilineHashBraceLayout:
   EnforcedStyle: symmetrical
 
-Style/MultilineMethodCallIndentation:
+Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
 
-Style/MultilineOperationIndentation:
+Layout/MultilineOperationIndentation:
   EnforcedStyle: indented
+
+##################### Lint ##################################
+
+# Allow logical `or`/`and` in conditionals
+
+Lint/AssignmentInCondition:
+  Enabled: false
+
+##################### Style ##################################
+
+Style/AndOr:
+  EnforcedStyle: conditionals
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
 
 # Enforce the method used for string formatting.
 Style/FormatString:
   Enabled: false
 
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
 Style/IfUnlessModifier:
   MaxLineLength: 120
+
+Style/RaiseArgs:
+  Enabled: false
 
 Style/StringLiterals:
   EnforcedStyle: double_quotes
@@ -53,24 +73,14 @@ Style/StringLiteralsInInterpolation:
 Style/TrailingCommaInLiteral:
   Enabled: false
 
-Style/RaiseArgs:
-  Enabled: false
-
-# Allow logical `or`/`and` in conditionals
-Style/AndOr:
-  EnforcedStyle: conditionals
-
-Lint/AssignmentInCondition:
-  Enabled: false
-
-Style/Documentation:
-  Enabled: false
-
 ##################### Metrics ##################################
 
 Metrics/AbcSize:
   Severity: warning
   Max: 25
+
+Metrics/BlockLength:
+  Max: 30
 
 Metrics/LineLength:
   Max: 120
