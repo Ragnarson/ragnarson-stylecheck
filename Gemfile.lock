@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    ragnarson-stylecheck (0.3.0)
+    ragnarson-stylecheck (0.4.0)
       rake (~> 10.0)
       rubocop (~> 0.49)
 
@@ -34,4 +34,4 @@ DEPENDENCIES
   ragnarson-stylecheck!
 
 BUNDLED WITH
-   1.14.6
+   1.15.0
