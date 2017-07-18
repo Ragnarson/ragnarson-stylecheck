@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name          = "ragnarson-stylecheck"
-  s.version       = "0.4.0"
-  s.date          = "2015-03-30"
+  s.version       = "0.5.0"
+  s.date          = "2017-07-18"
   s.summary       = "Automatic style check for ragnarson projects"
   s.description   = "Wraps rubocop for simple and consisten experience"
   s.authors       = ["Grzesiek Kołodziejczyk", "Maciej Małecki", "Oskar Szrajer", "Piotr Marciniak"]
