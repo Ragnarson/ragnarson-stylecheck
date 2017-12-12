@@ -1,7 +1,6 @@
 Gem::Specification.new do |s|
   s.name          = "ragnarson-stylecheck"
-  s.version       = "0.5.0"
-  s.date          = "2017-07-18"
+  s.version       = "0.6.0"
   s.summary       = "Automatic style check for ragnarson projects"
   s.description   = "Wraps rubocop for simple and consisten experience"
   s.authors       = ["Grzesiek Kołodziejczyk", "Maciej Małecki", "Oskar Szrajer", "Piotr Marciniak"]
@@ -11,6 +10,6 @@ Gem::Specification.new do |s|
   s.license       = "MIT"
 
   s.add_development_dependency "bundler", "~> 1.10"
-  s.add_dependency "rake", "~> 10.0"
-  s.add_dependency "rubocop", "~> 0.49"
+  s.add_dependency "rake", ">= 10.0"
+  s.add_dependency "rubocop", "~> 0.51.0"
 end

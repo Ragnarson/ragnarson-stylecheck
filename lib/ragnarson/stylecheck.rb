@@ -1,5 +1,4 @@
 module Ragnarson
-  # style checking for booking sync projects
   module Stylecheck
     class << self
       def root

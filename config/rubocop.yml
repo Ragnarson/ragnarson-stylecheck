@@ -30,6 +30,9 @@ Layout/MultilineMethodCallIndentation:
 Layout/MultilineOperationIndentation:
   EnforcedStyle: indented
 
+Layout/SpaceInLambdaLiteral:
+  EnforcedStyle: require_space
+
 ##################### Lint ##################################
 
 # Allow logical `or`/`and` in conditionals
@@ -132,3 +135,6 @@ Lint/AmbiguousBlockAssociation:
   Exclude:
     - "spec/**/*.rb"
     - "config/**/*.rb"
+
+Bundler/OrderedGems:
+  Enabled: false
