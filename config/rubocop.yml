@@ -1,5 +1,5 @@
 AllCops:
-  TargetRubyVersion: 2.3
+  TargetRubyVersion: 2.5
 
 ##################### Layout ##################################
 
@@ -57,9 +57,6 @@ Style/FormatString:
 
 Style/FrozenStringLiteralComment:
   Enabled: false
-
-Style/IfUnlessModifier:
-  MaxLineLength: 120
 
 Style/RaiseArgs:
   Enabled: false
