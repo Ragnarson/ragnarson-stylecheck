@@ -70,7 +70,10 @@ Style/StringLiterals:
 Style/StringLiteralsInInterpolation:
   EnforcedStyle: double_quotes
 
-Style/TrailingCommaInLiteral:
+Style/TrailingCommaInArrayLiteral:
+  Enabled: false
+
+Style/TrailingCommaInHashLiteral:
   Enabled: false
 
 Style/PercentLiteralDelimiters:
@@ -116,7 +119,9 @@ AllCops:
   DisplayCopNames: true
   Exclude:
     - db/schema.rb
+    - db/migrate/*
     - bin/**
+    - vendor/bundle/**/*
     - node_modules/**/*
 
 Style/BlockDelimiters:
