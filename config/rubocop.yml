@@ -1,5 +1,12 @@
 AllCops:
   TargetRubyVersion: 2.6
+  DisplayCopNames: true
+  Exclude:
+    - db/schema.rb
+    - db/migrate/*
+    - bin/**
+    - vendor/bundle/**/*
+    - node_modules/**/*
 
 ##################### Layout ##################################
 
@@ -99,6 +106,9 @@ Metrics/AbcSize:
 
 Metrics/BlockLength:
   Max: 30
+  Exclude:
+    - "spec/**/*.rb"
+    - "config/**/*.rb"
 
 Metrics/LineLength:
   Max: 120
@@ -115,23 +125,9 @@ Metrics/ParameterLists:
 
 ##################### Rails ##################################
 
-AllCops:
-  DisplayCopNames: true
-  Exclude:
-    - db/schema.rb
-    - db/migrate/*
-    - bin/**
-    - vendor/bundle/**/*
-    - node_modules/**/*
-
 Style/BlockDelimiters:
   Exclude:
     - "spec/**/*"
-
-Metrics/BlockLength:
-  Exclude:
-    - "spec/**/*.rb"
-    - "config/**/*.rb"
 
 Lint/AmbiguousBlockAssociation:
   Exclude:
