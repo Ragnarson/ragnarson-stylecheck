@@ -7,10 +7,11 @@ AllCops:
     - bin/**
     - vendor/bundle/**/*
     - node_modules/**/*
+  NewCops: disable
 
 ##################### Layout ##################################
 
-Layout/AlignHash:
+Layout/HashAlignment:
   EnforcedHashRocketStyle: table
   EnforcedColonStyle: table
 
@@ -110,7 +111,7 @@ Metrics/BlockLength:
     - "spec/**/*.rb"
     - "config/**/*.rb"
 
-Metrics/LineLength:
+Layout/LineLength:
   Max: 120
   # To make it possible to copy or click on URIs in the code, we allow lines
   # contaning a URI to be longer than Max.
